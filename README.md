@@ -46,8 +46,8 @@ python server.py
 - summerize : finetuning version
 
 ### preprocessing
-- ocr.py
-- chunking.py
+- `ocr.py`
+- `chunking.py`
   - RAG를 위한 임베딩과 OCR 처리를 위한 함수
   - 현재는 서울대학교 데이터, 생활응급처치 길라잡이 데이터를 ocr처리하고 embedding하는 데에 사용
 
