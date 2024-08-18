@@ -1,5 +1,3 @@
-Sure, here's the English version of the README with the directory structure in tree format:
-
 # Emergency Response Chatbot
 
 ## Usage
