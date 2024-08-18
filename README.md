@@ -1,23 +1,30 @@
 # 응급구조 챗봇
 
 ## 사용법
-```
+```bash
 git clone https://github.com/seongyeon1/Fraiday.git
+```
 
-# 가상환경 만들기
+### 가상환경 만들기
+```bash
 python -m venv .venv
 echo '.venv' >> .gitignore
 . .venv/bin/activate
  
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
-# .env 파일 만들기
+### .env 파일 만들기
+```bash
 cat > .env
 UPSTAGE_API_KEY='발급 받은 API 입력' #ex) UPSTAGE_API_KEY=up_YW~
+```
 
+### 앱 실행
+```bash
 cd app
-python server.py
+python main.py
 ```
 실행후 http://0.0.0.0:8000/ 에서 결과 확인가능
 
@@ -53,6 +60,10 @@ python server.py
 
 
 ## 실행결과
+- 멀티턴 대화에 능하다
 
-일정 질문이 지나면 알아서 대처방안을 제시해준다
+- 응급처치 방법을 자세하게 잘 알려준다
 
+- KTAS 등급 제시
+
+- 전체 대화를 요약해서 응급실 내원시 보조자료로 활용이 가능하다
