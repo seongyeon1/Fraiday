@@ -60,8 +60,6 @@ flowchart TD
     E --> F[Format Retrieved Documents]
     F --> G[Generate Response using LLM]
     D --> H[Generate Response using LLM]
-    G --> I[Output (Korean)]
-    H --> K[Output (Korean)]
 
     subgraph RAG Chain
         E --> F --> G
