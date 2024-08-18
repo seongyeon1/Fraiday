@@ -52,8 +52,8 @@ python main.py
 ```mermaid
 flowchart TD
     A[Input Query] --> B{Route Chain}
-    B -->|KTAS Level 4 or 5| C{RAG Chain}
-    B -->|KTAS Level 1, 2, or 3| D{Basic Chain}
+    B -->|KTAS Level 4 or 5| C[RAG Chain]
+    B -->|KTAS Level 1, 2, or 3| D[Basic Chain]
     C --> E[Retrieve Context from Vector DB]
     E --> F[Format Retrieved Documents]
     F --> G[Generate Response using LLM]
