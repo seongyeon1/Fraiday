@@ -6,8 +6,19 @@
    git clone https://github.com/seongyeon1/Fraiday.git
    cd Fraiday
 ```
+### 2-1 **Makefile 사용하는 방법**
+To start the application for the first time:
+```bash
+make startapp
+```
+- `setup.sh` 실행시 UPSTAGE_API_KEY 를 요청합니다.
 
-### 2-1. **Use the `setup.sh` Script**
+다시 시작하고 싶다면
+```bash
+make rerun
+```
+
+### 2-2. **`setup.sh` 스크립트 이용하는 방법**
    ```bash
    git clone https://github.com/seongyeon1/Fraiday.git
    cd Fraiday
@@ -22,7 +33,7 @@ chmod +x setup.sh
 - http://0.0.0.0:8000/main/playground : RAG를 사용하여 응급처치 설명에 익숙하며, KTAS 단계를 알려주고 대화 요약까지 가능한 모델
 
 
-### 2-2. **Do it step-by-step**
+### 2-3. **Do it step-by-step**
 #### 가상환경 만들기
 ```bash
 python -m venv .venv
