@@ -8,20 +8,36 @@ git clone https://github.com/seongyeon1/Fraiday.git
 cd Fraiday
 ```
 
-### 2-1. **Use the `setup.sh` Script**
+### 2-1 **Use the Makefile**
+To start the application for the first time:
+```bash
+make startapp
+```
+- `setup.sh` will prompt you to enter your UPSTAGE_API_KEY during execution.
+
+To rerun the application:
+```bash
+make rerun
+```
+
+### 2-2. **Use the `setup.sh` Script**
 ```bash
 chmod +x setup.sh
 ./setup.sh
 ```
-During the execution of the `setup.sh` file,         
-when the terminal displays `Enter your UPSTAGE_API_KEY:`, enter your `UPSTAGE_API_KEY` to continue.
+- `setup.sh` will prompt you to enter your UPSTAGE_API_KEY during execution.
 
-    
 After execution, you can check the results at http://0.0.0.0:8000/
 - http://0.0.0.0:8000/chat/playground 
   - A model that converses like a real emergency responder and excels in multi-turn conversations.
 - http://0.0.0.0:8000/main/playground
   - A model that is proficient in explaining first aid using RAG, informs about KTAS levels, and summarizes conversations.
+
+#### Rerun the App
+```bash
+python app/main.py
+```
+
 
 ### 2-2. **Do it step-by-step**
 #### Create a Virtual Environment

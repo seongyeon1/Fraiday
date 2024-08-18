@@ -4,6 +4,7 @@ langchain
 langchain_community
 langchain-openai
 langchain-upstage
+
 langchain-chroma
 langserve
 sentence-transformers
@@ -16,3 +17,4 @@ tiktoken
 chromadb
 
 pymupdf
+langchain_upstage
