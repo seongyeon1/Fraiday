@@ -48,9 +48,27 @@ python main.py
 
 - `/template` : 프롬프트 템플릿을 저장
 
+### flowchart
+```mermaid
+flowchart TD
+    A[Input Query] --> B{Route Chain}
+    B -->|KTAS Level 4 or 5| C{RAG Chain}
+    B -->|KTAS Level 1, 2, or 3| D{Basic Chain}
+    C --> E[Retrieve Context from Vector DB]
+    E --> F[Format Retrieved Documents]
+    F --> G[Generate Response using LLM]
+    D --> H[Generate Response using LLM]
+    G --> I[Output (Korean)]
+    H --> I[Output (Korean)]
 
-[고도화 예정]
-- summerize : finetuning version
+    subgraph RAG Chain
+        E --> F --> G
+    end
+
+    subgraph Basic Chain
+        H
+    end
+```
 
 ### preprocessing
 - `ocr.py`
