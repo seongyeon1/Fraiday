@@ -90,8 +90,10 @@ Fraiday
 ## Use Case Diagram
 
 ### 현재
+![Now](https://github.com/user-attachments/assets/5cc4ca12-4ad2-42ea-afb6-8069752e615f)
 
 ### 향후 발전 방향
+![Future Work](https://github.com/user-attachments/assets/d33f0b0c-1500-48e5-b9fc-c4a8d489d58c)
 
 아래 기능이 모두 결합된 router 모델의 형태로 구현될 예정이다
 - **멀티턴 대화** : 멀티턴 대화에 능하여 문맥에 맞는 빠른 응답 및 대처가 가능하다 (현재 `chat.py` 모델을 통해 구현가능성을 확인하였다)
