@@ -1,4 +1,5 @@
 # Emergency Response Chatbot
+- if you want to read in KOREAN, click [here](README-ko.md)
 
 ## Usage
 ### 1. **Clone the Repository:**
