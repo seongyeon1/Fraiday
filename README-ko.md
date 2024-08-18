@@ -64,26 +64,16 @@ python main.py
 - `/template` : 프롬프트 템플릿을 저장
 
 
-## flowchart (발전방향)
+## Use Case Diagram
 
-```mermaid
-flowchart TD
-    A[Input Query] --> B{Route Chain}
-    B -->|KTAS Level 4 or 5| C[RAG Chain]
-    B -->|KTAS Level 1, 2, or 3| D[Basic Chain]
-    C --> E[Retrieve Context from Vector DB]
-    E --> F[Format Retrieved Documents]
-    F --> G[Generate Response using LLM]
-    D --> H[Generate Response using LLM]
+### 현재
 
-    subgraph RAG Chain
-        E --> F --> G
-    end
+### 향후 발전 방향
 
-    subgraph Basic Chain
-        H
-    end
-```
+아래 기능이 모두 결합된 router 모델의 형태로 구현될 예정이다
+- **멀티턴 대화** : 멀티턴 대화에 능하여 문맥에 맞는 빠른 응답 및 대처가 가능하다 (현재 `chat.py` 모델을 통해 구현가능성을 확인하였다)
+- **응급처치 정보 제공** : 명확한 지식을 기반으로 정확한 정보 제공 (현재 `rag.py` 모델을 통해 구현가능성을 확인하였다)
+- **대화 요약** : 응급상황 대화종료시 받은 정보를 요약하여 응급실 내원시 보조자료로 활용 (history를 기록한 것을 바탕으로 특정 조건이 들어가도록 요약해달라고 프롬프트를 튜닝하여 구현하였다)
 
 ### preprocessing
 - `ocr.py`

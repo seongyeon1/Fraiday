@@ -85,26 +85,17 @@ Fraiday
   - Functions for embedding and OCR processing for RAG.
   - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
 
-## Flowchart (Future Direction)
+## Use Case Diagram
 
-```mermaid
-flowchart TD
-    A[Input Query] --> B{Route Chain}
-    B -->|KTAS Level 4 or 5| C[RAG Chain]
-    B -->|KTAS Level 1, 2, or 3| D[Basic Chain]
-    C --> E[Retrieve Context from Vector DB]
-    E --> F[Format Retrieved Documents]
-    F --> G[Generate Response using LLM]
-    D --> H[Generate Response using LLM]
+### **Now**
 
-    subgraph RAG Chain
-        E --> F --> G
-    end
+### **Future Work**
 
-    subgraph Basic Chain
-        H
-    end
-```
+It will be implemented in the form of a router model that combines all of the following features
+- Multi-turn dialogue: It is possible to respond and respond quickly according to the context by being proficient in multi-turn dialogue (currently, it is possible to implement through `chat.py` model)
+- Provide first aid information: Provide accurate information based on clear knowledge (Currently, the `rag.py` model has been verified for implementation)
+- Conversation summary: Summarise the information received at the end of an emergency conversation and use it as an aid for emergency room visits (implemented by tuning the prompt to summarise specific conditions based on history)
+
 
 ## Execution Results
 - Excels in multi-turn conversations.
