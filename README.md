@@ -84,12 +84,15 @@ Fraiday
 - `preprocessing/chunking.py`
   - Functions for embedding and OCR processing for RAG.
   - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
+----
 
 ## Use Case Diagram
 
 ### **Now**
+![Now](https://github.com/user-attachments/assets/5cc4ca12-4ad2-42ea-afb6-8069752e615f)
 
 ### **Future Work**
+![Future Work](https://github.com/user-attachments/assets/d33f0b0c-1500-48e5-b9fc-c4a8d489d58c)
 
 It will be implemented in the form of a router model that combines all of the following features
 - **Multi-turn dialogue**: It is possible to respond and respond quickly according to the context by being proficient in multi-turn dialogue (currently, it is possible to implement through `chat.py` model)
