@@ -53,9 +53,6 @@ python server.py
 
 
 ## 실행결과
-![Screenshot 2024-08-14 at 2 41 18 PM](https://github.com/user-attachments/assets/c92a18a1-0cf0-447e-8117-e603e6da2842)
-![Screenshot 2024-08-14 at 2 41 23 PM](https://github.com/user-attachments/assets/10343291-3cc5-4a40-aeed-55c4fa32d6f2)
-![Screenshot 2024-08-14 at 2 41 26 PM](https://github.com/user-attachments/assets/b987a5a3-b6ba-4fb0-bc7f-ce4506c29296)
-     
+
 일정 질문이 지나면 알아서 대처방안을 제시해준다
-# Fraiday
+
