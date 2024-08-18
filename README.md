@@ -67,21 +67,21 @@ Fraiday
 ```
 
 ### app
-- `**app/main.py**`: The main page utilizing FastAPI and Langserve.
-- `**app/chat.py**`: 
+- `app/main.py`: The main page utilizing FastAPI and Langserve.
+- `app/chat.py`: 
   - Uses the Upstage API to fine-tune prompts for an emergency response chatbot demo (under development).
   - Excels in multi-turn conversations.
   - Chats like a real emergency responder but lacks precise knowledge for professional expertise.
-- `**app/rag.py**`: Uses RAG (Seoul National University First Aid).
+- `app/rag.py`: Uses RAG (Seoul National University First Aid).
   - A more specialized model compared to the `chat` page.
   - Proficient in explaining first aid using RAG.
   - Informs about KTAS levels and summarizes conversations.
   - Lacks flexibility in conversations as it follows procedures to inform about KTAS levels.
-- `**app/templates**`: Stores prompt templates.
+- `app/templates`: Stores prompt templates.
 
 ### preprocessing
-- `**preprocessing/ocr.py**`
-- `**preprocessing/chunking.py**`
+- `preprocessing/ocr.py`
+- `preprocessing/chunking.py`
   - Functions for embedding and OCR processing for RAG.
   - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
 
@@ -92,9 +92,9 @@ Fraiday
 ### **Future Work**
 
 It will be implemented in the form of a router model that combines all of the following features
-- Multi-turn dialogue: It is possible to respond and respond quickly according to the context by being proficient in multi-turn dialogue (currently, it is possible to implement through `chat.py` model)
-- Provide first aid information: Provide accurate information based on clear knowledge (Currently, the `rag.py` model has been verified for implementation)
-- Conversation summary: Summarise the information received at the end of an emergency conversation and use it as an aid for emergency room visits (implemented by tuning the prompt to summarise specific conditions based on history)
+- **Multi-turn dialogue**: It is possible to respond and respond quickly according to the context by being proficient in multi-turn dialogue (currently, it is possible to implement through `chat.py` model)
+- **Provide first aid information**: Provide accurate information based on clear knowledge (Currently, the `rag.py` model has been verified for implementation)
+- **Conversation summary**: Summarise the information received at the end of an emergency conversation and use it as an aid for emergency room visits (implemented by tuning the prompt to summarise specific conditions based on history)
 
 
 ## Execution Results

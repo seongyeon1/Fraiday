@@ -46,7 +46,24 @@ cd app
 python main.py
 ```
 
-## dir structure
+## Directory Structure
+
+```plaintext
+Fraiday
+├── app
+│   ├── main.py
+│   ├── chat.py
+│   ├── rag.py
+│   └── template
+│       └── (prompt templates)
+├── preprocessing
+│   ├── ocr.py
+│   └── chunking.py
+├── setup.sh
+├── requirements.txt
+└── .env(example)
+└── .env(example)
+```
 
 ### app
 - `main.py` : fastapi, langserve 활용한 메인 페이지
@@ -62,6 +79,12 @@ python main.py
   - 절차를 따라서 KTAS 단계를 알려주기 떄문에 유연한 대화가 부족함
 
 - `/template` : 프롬프트 템플릿을 저장
+
+### preprocessing
+- `ocr.py`
+- `chunking.py`
+  - RAG를 위한 임베딩과 OCR 처리를 위한 함수
+  - 현재는 서울대학교 데이터, 생활응급처치 길라잡이 데이터를 ocr처리하고 embedding하는 데에 사용
 
 
 ## Use Case Diagram
