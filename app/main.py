@@ -40,16 +40,6 @@ class InputChat(BaseModel):
         description="The chat messages representing the current situation.",
     )
 
-# Add RAG system interface
-add_routes(
-    app,
-    retriever_chain.with_types(input_type=InputChat),
-    path="/chat_retriever",
-    enable_feedback_endpoint=True,
-    #enable_public_trace_link_endpoint=True,
-    playground_type="chat",
-)
-
 
 add_routes(
     app,
@@ -65,16 +55,6 @@ add_routes(
     app,
     rag_chain.with_types(input_type=InputChat),
     path="/main",
-    enable_feedback_endpoint=True,
-    #enable_public_trace_link_endpoint=True,
-    playground_type="chat",
-)
-
-# Predibase integration
-add_routes(
-    app,
-    summarize_chain.with_types(input_type=InputChat),
-    path="/summarize",
     enable_feedback_endpoint=True,
     #enable_public_trace_link_endpoint=True,
     playground_type="chat",
