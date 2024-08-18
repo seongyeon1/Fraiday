@@ -48,7 +48,9 @@ python main.py
 
 - `/template` : 프롬프트 템플릿을 저장
 
-### flowchart (발전방향)
+
+## flowchart (발전방향)
+
 ```mermaid
 flowchart TD
     A[Input Query] --> B{Route Chain}
@@ -58,6 +60,8 @@ flowchart TD
     E --> F[Format Retrieved Documents]
     F --> G[Generate Response using LLM]
     D --> H[Generate Response using LLM]
+    G --> I[Output (Korean)]
+    H --> K[Output (Korean)]
 
     subgraph RAG Chain
         E --> F --> G
