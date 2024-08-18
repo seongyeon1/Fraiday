@@ -85,6 +85,7 @@ Fraiday
   - Functions for embedding and OCR processing for RAG.
   - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
 
+
 ## Use Case Diagram
 
 ### **Now**
