@@ -1,0 +1,10 @@
+# Environments
+.venv
+.env
+
+.cache
+*.gguf
+
+*.log
+
+__pycache__.venv
