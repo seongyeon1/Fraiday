@@ -2,7 +2,7 @@
 
 ## 사용법
 ```
-git clone 
+git clone https://github.com/seongyeon1/Fraiday.git
 
 # 가상환경 만들기
 python -m venv .venv
