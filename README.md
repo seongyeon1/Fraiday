@@ -55,13 +55,15 @@
 ## Project Overview
 
 ### Goals:
-- Assist 119 emergency responders and medical personnel
-- Enable rapid and efficient emergency response and medical care
+>- Assist 119 emergency responders and medical personnel
+>- Enable rapid and efficient emergency response and medical care
 
 ### What’s Pre-KTAS?
-- Patient classification system to determine treatment priority in emergencies. 
-- In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
-  - Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072
+>- Patient classification system to determine treatment priority in emergencies. 
+>- In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
+>   - Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072
+
+<br />
 
 
 ## Getting Started
@@ -90,11 +92,11 @@ chmod +x setup.sh
 ```
 - `setup.sh` will prompt you to enter your UPSTAGE_API_KEY during execution.
 
-> After execution, you can check the results at http://0.0.0.0:8000/
-> - http://0.0.0.0:8000/chat/playground 
-> - A model that converses like a real emergency responder and excels in multi-turn conversations.
-> - http://0.0.0.0:8000/main/playground
-> - A model that is proficient in explaining first aid using RAG, informs about KTAS levels, and summarizes conversations.
+  > You can check the results at http://0.0.0.0:8000/
+  > - http://0.0.0.0:8000/chat/playground 
+  > - A model that converses like a real emergency responder and excels in multi-turn conversations.
+  > - http://0.0.0.0:8000/main/playground
+  > - A model that is proficient in explaining first aid using RAG, informs about KTAS levels, and summarizes conversations.
 
 #### Rerun the App
 ```bash
