@@ -36,11 +36,12 @@
     <li>
       <a href="#Getting-Started">Getting Started</a>
       <ul>
-        <li><a href="#Clone-the-Repository">Clone the Repository</a></li>
+        <li>Clone the Repository</li>
+        <li>Setup</li>
         <ul>
-          <li><a href="#Using-Makefile">Using Makefile</a></li>  
-          <li><a href="#Using-Shell-Script">Using Shell Script</a></li>  
-          <li><a href="#Do-it-step-by-step">Do it step-by-step</a></li>
+          <li>Using Makefile</li>  
+          <li>Using Shell Script</li>  
+          <li>Do it step-by-step</li>
         </ul>
       </ul>
     </li>
@@ -69,8 +70,8 @@
 git clone https://github.com/seongyeon1/Fraiday.git
 cd Fraiday
 ```
-
-### 2-1 **Using Makefile**
+### 2. Setup
+#### 2-1 **Using Makefile**
 To start the application for the first time:
 ```bash
 make startapp
@@ -82,7 +83,7 @@ To rerun the application:
 make rerun
 ```
           
-### 2-2. **Using `setup.sh` Script**
+#### 2-2. **Using `setup.sh` Script**
 ```bash
 chmod +x setup.sh
 ./setup.sh
@@ -101,8 +102,8 @@ python app/main.py
 ```
          
 
-### 2-2. **Do it step-by-step**
-#### Create a Virtual Environment
+#### 2-2. **Do it step-by-step**
+ Create a Virtual Environment
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
@@ -123,6 +124,7 @@ UPSTAGE_API_KEY='Your issued API key' # e.g., UPSTAGE_API_KEY=up_YW~
 cd app
 python main.py
 ```
+</br>
 
 ## Directory Structure
 
@@ -161,8 +163,8 @@ Fraiday
 - `preprocessing/chunking.py`
   - Functions for embedding and OCR processing for RAG.
   - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
-----
 
+</br>
 
 ## Use Case Diagram
 
