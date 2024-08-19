@@ -44,8 +44,7 @@ python app/main.py
 ### 2-2. **Do it step-by-step**
 #### Create a Virtual Environment
 ```bash
-python -m venv .venv
-echo '.venv' >> .gitignore
+python3 -m venv .venv
 . .venv/bin/activate
 
 pip install --upgrade pip
