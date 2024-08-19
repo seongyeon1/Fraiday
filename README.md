@@ -61,7 +61,7 @@
 ### What’s Pre-KTAS?
 >- Patient classification system to determine treatment priority in emergencies. 
 >- In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
->   - Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072
+>   - [Reference](https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072)
 
 ### Built With
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -156,21 +156,28 @@ Fraiday
 ### app
 - `app/main.py`: The main page utilizing FastAPI and Langserve.
 - `app/chat.py`: 
-  - Uses the Upstage API to fine-tune prompts for an emergency response chatbot demo (under development).
+  - Uses the [**Upstage API**](https://github.com/seongyeon1/Fraiday/blob/main/app/chat.py#L8)(for model, embeddings) to fine-tune prompts for an emergency response chatbot demo (under development).
   - Excels in multi-turn conversations.
   - Chats like a real emergency responder but lacks precise knowledge for professional expertise.
 - `app/rag.py`: Uses RAG (Seoul National University First Aid).
   - A more specialized model compared to the `chat` page.
-  - Proficient in explaining first aid using RAG.
+  - Proficient in explaining first aid using [**Upstage API**](https://github.com/seongyeon1/Fraiday/blob/main/app/rag.py#L19)(for model, embeddings) and **RAG**.
   - Informs about KTAS levels and summarizes conversations.
   - Lacks flexibility in conversations as it follows procedures to inform about KTAS levels.
 - `app/templates`: Stores prompt templates.
 
 ### preprocessing
-- `preprocessing/ocr.py`
-- `preprocessing/chunking.py`
-  - Functions for embedding and OCR processing for RAG.
-  - Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
+- Functions for embedding and OCR processing for RAG.
+- Currently used for OCR processing and embedding Seoul National University data and the First Aid Guidebook.
+</br>
+
+  - `preprocessing/ocr.py`
+    - Used [**Upstage API**(UpstageLayoutAnalysisLoader)](https://github.com/seongyeon1/Fraiday/blob/main/preprocessing/ocr.py#L20)
+  - `preprocessing/chunking.py`
+    - Used [**Upstage API**(Embeddings)](https://github.com/seongyeon1/Fraiday/blob/main/preprocessing/chunking.py#L38)
+
+
+
 
 </br>
 
