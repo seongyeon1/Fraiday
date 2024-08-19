@@ -3,9 +3,9 @@
 <div align="center">
   <p align="center">
     <h1 align="center">Emergency Response Assistance Solution</h1>
-    Project for <b>Upstage AI Hackathon</b>
+    <h3>Project for <b>Upstage AI Hackathon</b></h3>
     <a href="https://ko.upstage.ai/global-ai-week-ai-hackathon"><br />
-      <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="200" height="80">
+      <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="250" height="100">
     </a>
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
@@ -63,6 +63,12 @@
 >- In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
 >   - Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072
 
+### Built With
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![fastapi](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![langchain](https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain)
+
+
 <br />
 
 
@@ -117,7 +123,7 @@ pip install -r requirements.txt
 #### Create a .env File
 ```bash
 cat > .env
-UPSTAGE_API_KEY='Your issued API key' # e.g., UPSTAGE_API_KEY=up_YW~
+UPSTAGE_API_KEY='Your API key' # e.g., UPSTAGE_API_KEY=up_YW~
 ```
 - After entering, close the `cat` command using Ctrl+C.
       
