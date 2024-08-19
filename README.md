@@ -4,6 +4,7 @@
   <p align="center">
     <h1 align="center">Emergency Response Assistance Solution</h1>
     <h3>Project for <b>Upstage AI Hackathon</b></h3>
+    <strong>Team Name : L3K1</strong>
     <a href="https://ko.upstage.ai/global-ai-week-ai-hackathon"><br />
       <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="250" height="100">
     </a>
@@ -15,7 +16,7 @@
     ·
     <a href="https://youtu.be/dEEOkgUy4N8">Demo Video</a>
     ·
-    <a href="https://youtu.be/dEEOkgUy4N8">Slides</a>
+    <a href="https://docs.google.com/presentation/d/1OV9YCP_De4GIgeO7TcDQ3gVXZyJmTuj7U4ng9Jv_Qso/edit?usp=sharing">Slides</a>
     <br />
     <br />
     <a href="https://github.com/seongyeon1/Fraiday/blob/main/README-ko.md">[Read in Korean]</a>
@@ -29,20 +30,12 @@
   <ol>
     <li>
       <a href="#Project-Overview">Project Overview</a>
-      <ul>
-        <li><a href="#Built-With">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#Getting-Started">Getting Started</a>
       <ul>
         <li>Clone the Repository</li>
         <li>Setup</li>
-        <ul>
-          <li>Using Makefile</li>  
-          <li>Using Shell Script</li>  
-          <li>Do it step-by-step</li>
-        </ul>
       </ul>
     </li>
     <li><a href="#Directory-Structure">Directory Structure</a></li>
@@ -67,6 +60,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![fastapi](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![langchain](https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain)
+
 
 
 <br />
@@ -150,7 +144,6 @@ Fraiday
 ├── setup.sh
 ├── requirements.txt
 └── .env(example)
-└── .env(example)
 ```
 
 ### app
@@ -194,10 +187,31 @@ It will be implemented in the form of a router model that combines all of the fo
 - **Provide first aid information**: Provide accurate information based on clear knowledge (Currently, the `rag.py` model has been verified for implementation)
 - **Conversation summary**: Summarise the information received at the end of an emergency conversation and use it as an aid for emergency room visits (implemented by tuning the prompt to summarise specific conditions based on history)
 
+</br>
+
 ## Data Sources
 **First aid resources** (for RAG)
 - [Seoul National University Emergency Response Manual](https://health4u.snu.ac.kr/data/download/1_2.pdf)
 - [Korea Fire Service Life First Aid Guide](https://fire.go.kr/site/fbn119/board/bbs018/433)
+</br>
 
 **Real emergency voice call dataset**
 - [Emergency Voice/Audio - 119 Voice Recognition Data](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71768)
+</br>
+</br>
+
+## Authors and Acknowledgment
+### FRAIDAY was created by L3K1
+
+SungyeonKim | JunghoonLee | JunghuiLee| EunkyungLee
+:-: | :-: | :-: | :-:
+<img width="160px" src="https://avatars.githubusercontent.com/u/83098550?s=400&u=29a89fe1f31aede109cb129c5b4251b0ef6f5070&v=4"/>|<img width="160px" src="https://avatars.githubusercontent.com/u/169136233?v=4"/>| <img width="160px" src="https://avatars.githubusercontent.com/u/82493052?v=4"/>| <img width="160px" src="https://avatars.githubusercontent.com/u/58682424?v=4"/> 
+[@seongyeon1](https://github.com/seongyeon1)|[@coronarita1991](https://github.com/coronarita1991)|[@wjdgml0526](https://github.com/wjdgml0526)|[@ek0111](https://github.com/ek0111)
+ksy974498@gmail.com|coronarita1991@gmail.com|wjdgml0526@gmail.com|eunkyung0111@gmail.com
+
+<h3>Project for <b>Upstage AI Hackathon</b></h3>
+    <strong>Team Name : L3K1</strong>
+    <a href="https://ko.upstage.ai/global-ai-week-ai-hackathon"><br />
+      <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="250" height="100">
+    </a>
+    <br />

@@ -28,6 +28,6 @@ make rerun
 
 # Print out the URLs for accessing the app
 echo "App is running. You can access it at the following URLs:"
-echo "http://0.0.0.0:8000/ : same with http://0.0.0.0:8000/main/playground"
+echo "http://0.0.0.0:8000/ (redirect to http://0.0.0.0:8000/main/playground)"
 echo "http://0.0.0.0:8000/chat/playground"
 echo "http://0.0.0.0:8000/main/playground"
