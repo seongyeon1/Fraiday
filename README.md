@@ -1,13 +1,10 @@
-# Emergency Response Assistance Solution
-- if you want to read in KOREAN, click [here](README-ko.md)
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h2 align="center">Emergency Response Assistance Solution</h3>
+  <h1 align="center">Emergency Response Assistance Solution</h3>
 
   <p align="center">
-    Project for **Upstage AI Hackathon**
+    Project for <b>Upstage AI Hackathon</b>**
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
     <br />
@@ -26,7 +23,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><h2>Table of Contents</h2></summary>
   <ol>
     <li>
       <a href="#about-the-project">Project Overview</a>
