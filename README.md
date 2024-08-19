@@ -1,4 +1,4 @@
-# Emergency Response Chatbot
+# L3K1_Emergency Response Chatbot
 - if you want to read in KOREAN, click [here](README-ko.md)
 
 ## Usage
