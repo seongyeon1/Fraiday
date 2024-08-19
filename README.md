@@ -204,7 +204,7 @@ It will be implemented in the form of a router model that combines all of the fo
 ## Authors and Acknowledgment
 ### FRAIDAY was created by L3K1
 
-If you have any questions or comments about Project Title, please contact below.
+If you have any questions or comments about our project, please contact below.
 EunkyungLee | SungyeonKim | JunghoonLee | JunghuiLee
 :-: | :-: | :-: | :-:
  <img width="160px" src="https://avatars.githubusercontent.com/u/58682424?v=4"/><br>[@ek0111](https://github.com/ek0111) | <img width="160px" src="https://avatars.githubusercontent.com/u/83098550?s=400&u=29a89fe1f31aede109cb129c5b4251b0ef6f5070&v=4"/><br>[@seongyeon1](https://github.com/seongyeon1)|<img width="160px" src="https://avatars.githubusercontent.com/u/169136233?v=4"/><br>[@coronarita1991](https://github.com/coronarita1991)| <img width="160px" src="https://avatars.githubusercontent.com/u/82493052?v=4"/><br>[@wjdgml0526](https://github.com/wjdgml0526)
