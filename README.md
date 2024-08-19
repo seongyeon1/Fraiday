@@ -5,7 +5,7 @@
 
   <p align="center">
     Project for <b>Upstage AI Hackathon</b>
-    <br />![Global_AI_Week_AI_Hackathon_Social_(1600x900)](https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b)
+    ![Global_AI_Week_AI_Hackathon_Social_(1600x900)](https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b)
 
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
