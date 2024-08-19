@@ -4,7 +4,8 @@
   <h1 align="center">Emergency Response Assistance Solution</h3>
 
   <p align="center">
-    Project for <b>Upstage AI Hackathon</b>**
+    Project for <b>Upstage AI Hackathon</b>
+    <br />
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
     <br />
@@ -16,7 +17,7 @@
     <a href="https://youtu.be/dEEOkgUy4N8">Slides</a>
     <br />
     <br />
-    <a href="https://github.com/seongyeon1/Fraiday/blob/main/README-ko.md">Read in Korean</a>
+    <a href="https://github.com/seongyeon1/Fraiday/blob/main/README-ko.md">[Read in Korean]</a>
 
   </p>
 </div>
