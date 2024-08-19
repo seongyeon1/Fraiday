@@ -1,12 +1,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1 align="center">Emergency Response Assistance Solution</h3>
-
   <p align="center">
+    <h1 align="center">Emergency Response Assistance Solution</h1>
     Project for <b>Upstage AI Hackathon</b>
-    ![Global_AI_Week_AI_Hackathon_Social_(1600x900)](https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b)
-
+    <a href="https://ko.upstage.ai/global-ai-week-ai-hackathon"><br />
+      <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="200" height="80">
+    </a>
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
     <br />
