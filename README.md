@@ -8,7 +8,7 @@
       <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="200" height="80">
     </a>
     <br />
-    <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
     <br />
     <br />
     <a href="https://docs.google.com/document/d/1ONG75P1bZVpyxKtr2DsYmgyUYKnC-Whs/edit?usp=sharing&ouid=107570799977032888577&rtpof=true&sd=true">Introduction</a>
@@ -28,26 +28,25 @@
   <summary><h2>Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">Project Overview</a>
+      <a href="#Project-Overview">Project Overview</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Built-With">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Getting-Started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Clone the Repository</a></li>
+        <li><a href="#Clone-the-Repository">Clone the Repository</a></li>
         <ul>
-          <li><a href="#installation">Using Makefile</a></li>  
-          <li><a href="#installation">Using `setup.sh` Script</a></li>  
-          <li><a href="#installation">Do it step-by-step</a></li>
+          <li><a href="#Using-Makefile">Using Makefile</a></li>  
+          <li><a href="#Using-Shell-Script">Using Shell Script</a></li>  
+          <li><a href="#Do-it-step-by-step">Do it step-by-step</a></li>
         </ul>
       </ul>
     </li>
-    <li><a href="#usage">Directory Structure</a></li>
-    <li><a href="#contributing">Use Case Diagram</a></li>
-    <li><a href="#roadmap">Data Sources</a></li>
-    
+    <li><a href="#Directory-Structure">Directory Structure</a></li>
+    <li><a href="#Use-Case-Diagram">Use Case Diagram</a></li>
+    <li><a href="#Data-Sources">Data Sources</a></li>
   </ol>
 </details>
 
@@ -61,7 +60,7 @@
 ### What’s Pre-KTAS?
 - Patient classification system to determine treatment priority in emergencies. 
 - In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
-(Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072)
+  - Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072
 
 
 ## Getting Started
