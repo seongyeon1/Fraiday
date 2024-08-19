@@ -41,6 +41,7 @@
     <li><a href="#Directory-Structure">Directory Structure</a></li>
     <li><a href="#Use-Case-Diagram">Use Case Diagram</a></li>
     <li><a href="#Data-Sources">Data Sources</a></li>
+    <li><a href="#Authors-and-Acknowledgment">Authors and Acknowledgment</a></li>
   </ol>
 </details>
 
@@ -48,7 +49,7 @@
 ## Project Overview
 
 ### Goals:
->- Assist 119 emergency responders and medical personnel
+>- Assist first responders and medical personnel
 >- Enable rapid and efficient emergency response and medical care
 
 ### What’s Pre-KTAS?
