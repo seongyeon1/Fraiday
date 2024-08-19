@@ -1,16 +1,78 @@
-# L3K1_Emergency Response Chatbot
+# Emergency Response Assistance Solution
 - if you want to read in KOREAN, click [here](README-ko.md)
 
-## Usage
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h2 align="center">Emergency Response Assistance Solution</h3>
+
+  <p align="center">
+    Project for **Upstage AI Hackathon**
+    <br />
+    <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://docs.google.com/document/d/1ONG75P1bZVpyxKtr2DsYmgyUYKnC-Whs/edit?usp=sharing&ouid=107570799977032888577&rtpof=true&sd=true">Introduction</a>
+    ·
+    <a href="https://youtu.be/dEEOkgUy4N8">Demo Video</a>
+    ·
+    <a href="https://youtu.be/dEEOkgUy4N8">Slides</a>
+    <br />
+    <br />
+    <a href="https://github.com/seongyeon1/Fraiday/blob/main/README-ko.md">Read in Korean</a>
+
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Project Overview</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Clone the Repository</a></li>
+        <ul>
+          <li><a href="#installation">Using Makefile</a></li>  
+          <li><a href="#installation">Using `setup.sh` Script</a></li>  
+          <li><a href="#installation">Do it step-by-step</a></li>
+        </ul>
+      </ul>
+    </li>
+    <li><a href="#usage">Directory Structure</a></li>
+    <li><a href="#contributing">Use Case Diagram</a></li>
+    <li><a href="#roadmap">Data Sources</a></li>
+    
+  </ol>
+</details>
+
+
+## Project Overview
+
+### Goals:
+- Assist 119 emergency responders and medical personnel
+- Enable rapid and efficient emergency response and medical care
+
+### What’s Pre-KTAS?
+- Patient classification system to determine treatment priority in emergencies. 
+- In Korea, the format of triage used in emergency rescue activities is specified in the rules on emergency rescue response activities and field command.
+(Reference : https://www.nfa.go.kr/nfa/news/pressrelease/press/?boardId=bbs_0000000000000010&mode=view&cntId=2072)
+
+
+## Getting Started
 ### 1. **Clone the Repository:**
 ```bash
 git clone https://github.com/seongyeon1/Fraiday.git
 cd Fraiday
 ```
 
-
-
-### 2-1 **Use the Makefile**
+### 2-1 **Using Makefile**
 To start the application for the first time:
 ```bash
 make startapp
@@ -22,7 +84,7 @@ To rerun the application:
 make rerun
 ```
           
-### 2-2. **Use the `setup.sh` Script**
+### 2-2. **Using `setup.sh` Script**
 ```bash
 chmod +x setup.sh
 ./setup.sh
@@ -117,9 +179,10 @@ It will be implemented in the form of a router model that combines all of the fo
 - **Provide first aid information**: Provide accurate information based on clear knowledge (Currently, the `rag.py` model has been verified for implementation)
 - **Conversation summary**: Summarise the information received at the end of an emergency conversation and use it as an aid for emergency room visits (implemented by tuning the prompt to summarise specific conditions based on history)
 
+## Data Sources
+**First aid resources** (for RAG)
+- [Seoul National University Emergency Response Manual](https://health4u.snu.ac.kr/data/download/1_2.pdf)
+- [Korea Fire Service Life First Aid Guide](https://fire.go.kr/site/fbn119/board/bbs018/433)
 
-## Execution Results
-- Excels in multi-turn conversations.
-- Provides detailed explanations of first aid methods.
-- Informs about KTAS levels.
-- Summarizes the entire conversation for use as supplementary material when visiting the emergency room.
+**Real emergency voice call dataset**
+- [Emergency Voice/Audio - 119 Voice Recognition Data](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71768)
