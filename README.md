@@ -4,8 +4,6 @@
   <p align="center">
     <h1 align="center">Emergency Response Assistance Solution</h1>
     <strong>Team Name : L3K1</strong>
-     
-
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
     <br />
@@ -18,7 +16,6 @@
     <br />
     <br />
     <a href="https://github.com/seongyeon1/Fraiday/blob/main/README-ko.md">[Read in Korean]</a>
-
   </p>
 </div>
 
