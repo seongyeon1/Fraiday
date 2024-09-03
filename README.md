@@ -5,7 +5,7 @@
     <h1 align="center">Emergency Response Assistance Solution</h1>
 <!--     <h3>Project for <b>Upstage AI Hackathon</b></h3> -->
     <strong>Team Name : L3K1</strong>
-      <img src="https://github.com/user-attachments/assets/9288c8db-4e97-4eb9-b289-38345d41c40b" alt="Logo" width="250" height="100">
+     
     </a>
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
