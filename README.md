@@ -3,10 +3,9 @@
 <div align="center">
   <p align="center">
     <h1 align="center">Emergency Response Assistance Solution</h1>
-<!--     <h3>Project for <b>Upstage AI Hackathon</b></h3> -->
     <strong>Team Name : L3K1</strong>
      
-    </a>
+
     <br />
     <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
     <br />
