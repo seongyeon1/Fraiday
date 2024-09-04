@@ -5,7 +5,7 @@
     <h1 align="center">Emergency Response Assistance Solution</h1>
     <strong>Team Name : L3K1</strong>
     <br />
-    <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore the Hackathon »</strong></a>
+    <a href="https://github.com/seongyeon1/Fraiday"><strong>Explore Our Project »</strong></a>
     <br />
     <br />
     <a href="https://docs.google.com/document/d/1ONG75P1bZVpyxKtr2DsYmgyUYKnC-Whs/edit?usp=sharing&ouid=107570799977032888577&rtpof=true&sd=true">Introduction</a>
@@ -126,7 +126,7 @@ python main.py
 
 ## Result
 
-https://github.com/user-attachments/assets/59b43d8a-8cfb-434b-bf5c-cefb6f41e2cd
+https://github.com/user-attachments/assets/0908c249-4f17-4dfd-b448-5b51be6dacc7
 
 
 
